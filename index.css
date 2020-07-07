@@ -1,0 +1,147 @@
+#one{
+	height:250px;
+	width:300px;
+    transition-property: width, height;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    background-color: lightpink;
+    padding: 20px;
+    border: solid black 2px;
+    box-shadow: 10px 10px 5px gray;
+}  
+
+#one:hover{
+  width: 400px;
+  height: 300px;
+}
+
+span ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+span li {
+  float: left;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightpink;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+#right{
+	float:right;
+	font-family: 'Fondamento', cursive;
+    font-size:22px;
+}
+
+
+
+/*font-family: 'Bangers', cursive;
+
+font-family: 'Fondamento', cursive;
+*/
+h1{
+	font-family: 'Fondamento', cursive;
+	font-size:50px;
+	text-shadow:10px 10px 5px gray;
+}
+
+#form{
+	transition-property: width, height;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+	background-color: lightgreen;
+	padding:10px;
+	box-shadow: 10px 10px 5px green;
+	width:700px;
+	height:400px;
+	margin-left:25%;
+}
+
+#form:hover{
+	width:750px;
+	height:450px;
+}
+
+.flex-container{
+	display:flex;
+	justify-content: center;
+}
+
+body{
+	background:lightyellow;
+	margin:20px;
+    padding:5px;
+}
+p{
+	padding:5px;
+	font-family: 'Dancing Script', cursive;
+	font-style:bold;
+	font-size:25px;
+}
+h2,h3{
+	font-family: 'Fondamento', cursive;
+	font-size:25px;
+}
+li{
+	
+	font-family: 'Dancing Script', cursive;
+	font-size:25px;
+
+}
+
+table{
+	font-family: 'Dancing Script', cursive;
+	font-style:bold;
+	font-size:25px;
+	border:solid 5px red;
+	background-color: lightblue;
+
+}
+
+@keyframes animation {
+
+  0%   {background-color:lightpink; left:0px; top:0px;}
+  25%  {background-color:lightblue; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:pink; left:0px; top:200px;}
+  100% {background-color:violet; left:0px; top:0px;}
+}
+
+#one:hover{
+  animation-name: animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#image1, #image2{
+  
+  transition: width 2s, height 2s, transform 2s;
+  background-color: pink;
+}
+
+#image1:hover, #image2:hover{
+	transform: rotateZ(360deg);
+	width:100px;
+	height:200px;
+}
+
+th{
+	background-color: violet;
+}
